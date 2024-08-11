@@ -31,5 +31,5 @@ plt.title('Median Salary (USD) by Age')
 plt.grid(True) #To put in a Grid
 plt.legend()
 plt.tight_layout() #This method automatically adjusts plot parameters to give some padding
-plt.savefig('Graph.png')
+plt.savefig('Matplotlib_CreatingPlotsandCustomization.png')
 plt.show()
