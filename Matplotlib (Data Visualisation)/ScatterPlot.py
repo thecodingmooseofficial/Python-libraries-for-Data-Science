@@ -5,7 +5,7 @@ import random
 x = [random.randint(1, 50) for data in range(50)]
 y = [random.randint(1, 50) for data in range(50)]
 
-# Create a scatter plot
+# Use plt.scatter() to create a scatter plot with x and y data points
 plt.scatter(x, y, color='green', marker='x')
 
 # Add labels and title
