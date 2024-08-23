@@ -4,7 +4,7 @@ import numpy as np
 # Generate random data 
 data = np.random.randn(1000) 
 
-# Create a histogram 
+# Use plt.hist() to create a histogram with specified bins and edge color
 plt.hist(data, bins=30, color='yellow', edgecolor='blue') 
 
 # Add labels and title 
