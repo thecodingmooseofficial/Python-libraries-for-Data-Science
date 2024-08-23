@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 categories = ['A', 'B', 'C', 'D']
 values = [5, 7, 3, 8]
 
-# Create a bar plot
+# Use plt.bar() to create a bar plot with categories and values
 plt.bar(categories, values, color='skyblue')
 
 # Add labels and title
